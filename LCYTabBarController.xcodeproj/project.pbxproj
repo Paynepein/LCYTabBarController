@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3AE7F51BE3830C003BBF59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3AE7F41BE3830C003BBF59 /* main.m */; };
+		FA3AE7F81BE3830C003BBF59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3AE7F71BE3830C003BBF59 /* AppDelegate.m */; };
+		FA3AE7FB1BE3830C003BBF59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3AE7FA1BE3830C003BBF59 /* ViewController.m */; };
+		FA3AE7FE1BE3830C003BBF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3AE7FC1BE3830C003BBF59 /* Main.storyboard */; };
+		FA3AE8001BE3830C003BBF59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3AE7FF1BE3830C003BBF59 /* Images.xcassets */; };
+		FA3AE8031BE3830C003BBF59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3AE8011BE3830C003BBF59 /* LaunchScreen.xib */; };
+		FA3AE80F1BE3830C003BBF59 /* LCYTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3AE80E1BE3830C003BBF59 /* LCYTabBarControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3AE8091BE3830C003BBF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3AE7E71BE3830C003BBF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3AE7EE1BE3830C003BBF59;
+			remoteInfo = LCYTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3AE7EF1BE3830C003BBF59 /* LCYTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCYTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3AE7F31BE3830C003BBF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3AE7F41BE3830C003BBF59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA3AE7F61BE3830C003BBF59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA3AE7F71BE3830C003BBF59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA3AE7F91BE3830C003BBF59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA3AE7FA1BE3830C003BBF59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA3AE7FD1BE3830C003BBF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3AE7FF1BE3830C003BBF59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA3AE8021BE3830C003BBF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA3AE8081BE3830C003BBF59 /* LCYTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCYTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3AE80D1BE3830C003BBF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3AE80E1BE3830C003BBF59 /* LCYTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYTabBarControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3AE7EC1BE3830C003BBF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3AE8051BE3830C003BBF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3AE7E61BE3830C003BBF59 = {
+			isa = PBXGroup;
+			children = (
+				FA3AE7F11BE3830C003BBF59 /* LCYTabBarController */,
+				FA3AE80B1BE3830C003BBF59 /* LCYTabBarControllerTests */,
+				FA3AE7F01BE3830C003BBF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3AE7F01BE3830C003BBF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3AE7EF1BE3830C003BBF59 /* LCYTabBarController.app */,
+				FA3AE8081BE3830C003BBF59 /* LCYTabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3AE7F11BE3830C003BBF59 /* LCYTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FA3AE7F61BE3830C003BBF59 /* AppDelegate.h */,
+				FA3AE7F71BE3830C003BBF59 /* AppDelegate.m */,
+				FA3AE7F91BE3830C003BBF59 /* ViewController.h */,
+				FA3AE7FA1BE3830C003BBF59 /* ViewController.m */,
+				FA3AE7FC1BE3830C003BBF59 /* Main.storyboard */,
+				FA3AE7FF1BE3830C003BBF59 /* Images.xcassets */,
+				FA3AE8011BE3830C003BBF59 /* LaunchScreen.xib */,
+				FA3AE7F21BE3830C003BBF59 /* Supporting Files */,
+			);
+			path = LCYTabBarController;
+			sourceTree = "<group>";
+		};
+		FA3AE7F21BE3830C003BBF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3AE7F31BE3830C003BBF59 /* Info.plist */,
+				FA3AE7F41BE3830C003BBF59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA3AE80B1BE3830C003BBF59 /* LCYTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3AE80E1BE3830C003BBF59 /* LCYTabBarControllerTests.m */,
+				FA3AE80C1BE3830C003BBF59 /* Supporting Files */,
+			);
+			path = LCYTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		FA3AE80C1BE3830C003BBF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3AE80D1BE3830C003BBF59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3AE7EE1BE3830C003BBF59 /* LCYTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3AE8121BE3830D003BBF59 /* Build configuration list for PBXNativeTarget "LCYTabBarController" */;
+			buildPhases = (
+				FA3AE7EB1BE3830C003BBF59 /* Sources */,
+				FA3AE7EC1BE3830C003BBF59 /* Frameworks */,
+				FA3AE7ED1BE3830C003BBF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCYTabBarController;
+			productName = LCYTabBarController;
+			productReference = FA3AE7EF1BE3830C003BBF59 /* LCYTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3AE8071BE3830C003BBF59 /* LCYTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3AE8151BE3830D003BBF59 /* Build configuration list for PBXNativeTarget "LCYTabBarControllerTests" */;
+			buildPhases = (
+				FA3AE8041BE3830C003BBF59 /* Sources */,
+				FA3AE8051BE3830C003BBF59 /* Frameworks */,
+				FA3AE8061BE3830C003BBF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3AE80A1BE3830C003BBF59 /* PBXTargetDependency */,
+			);
+			name = LCYTabBarControllerTests;
+			productName = LCYTabBarControllerTests;
+			productReference = FA3AE8081BE3830C003BBF59 /* LCYTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3AE7E71BE3830C003BBF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lichangyuan;
+				TargetAttributes = {
+					FA3AE7EE1BE3830C003BBF59 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FA3AE8071BE3830C003BBF59 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FA3AE7EE1BE3830C003BBF59;
+					};
+				};
+			};
+			buildConfigurationList = FA3AE7EA1BE3830C003BBF59 /* Build configuration list for PBXProject "LCYTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3AE7E61BE3830C003BBF59;
+			productRefGroup = FA3AE7F01BE3830C003BBF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3AE7EE1BE3830C003BBF59 /* LCYTabBarController */,
+				FA3AE8071BE3830C003BBF59 /* LCYTabBarControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3AE7ED1BE3830C003BBF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3AE7FE1BE3830C003BBF59 /* Main.storyboard in Resources */,
+				FA3AE8031BE3830C003BBF59 /* LaunchScreen.xib in Resources */,
+				FA3AE8001BE3830C003BBF59 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3AE8061BE3830C003BBF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3AE7EB1BE3830C003BBF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3AE7FB1BE3830C003BBF59 /* ViewController.m in Sources */,
+				FA3AE7F81BE3830C003BBF59 /* AppDelegate.m in Sources */,
+				FA3AE7F51BE3830C003BBF59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3AE8041BE3830C003BBF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3AE80F1BE3830C003BBF59 /* LCYTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3AE80A1BE3830C003BBF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3AE7EE1BE3830C003BBF59 /* LCYTabBarController */;
+			targetProxy = FA3AE8091BE3830C003BBF59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3AE7FC1BE3830C003BBF59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3AE7FD1BE3830C003BBF59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3AE8011BE3830C003BBF59 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3AE8021BE3830C003BBF59 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3AE8101BE3830D003BBF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA3AE8111BE3830D003BBF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3AE8131BE3830D003BBF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCYTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA3AE8141BE3830D003BBF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCYTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA3AE8161BE3830D003BBF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LCYTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCYTabBarController.app/LCYTabBarController";
+			};
+			name = Debug;
+		};
+		FA3AE8171BE3830D003BBF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LCYTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCYTabBarController.app/LCYTabBarController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3AE7EA1BE3830C003BBF59 /* Build configuration list for PBXProject "LCYTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3AE8101BE3830D003BBF59 /* Debug */,
+				FA3AE8111BE3830D003BBF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3AE8121BE3830D003BBF59 /* Build configuration list for PBXNativeTarget "LCYTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3AE8131BE3830D003BBF59 /* Debug */,
+				FA3AE8141BE3830D003BBF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA3AE8151BE3830D003BBF59 /* Build configuration list for PBXNativeTarget "LCYTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3AE8161BE3830D003BBF59 /* Debug */,
+				FA3AE8171BE3830D003BBF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3AE7E71BE3830C003BBF59 /* Project object */;
+}
